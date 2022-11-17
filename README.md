@@ -9,7 +9,8 @@ BACKEND:
 For nodeJS + Express refer click [here](https://www.webslesson.info/2022/04/insert-update-delete-data-from-mysql-in-node-js-using-express-js.html)
 
 FRONTEND:
-For html + css refer click [here](https://www.w3schools.com/html/)
+For html refer click [here](https://www.w3schools.com/html/)
+For css refer click [here](https://web.dev/learn/css/?gclid=Cj0KCQiA1NebBhDDARIsAANiDD1og-YMeVkfVvkTLBuGHll2nPG21EO5w8TGwe1t85DOSRtDzk2fbqgaAn_0EALw_wcB)
 
 For Database:
 Use mySQL
