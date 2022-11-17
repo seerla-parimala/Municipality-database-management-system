@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <title></title>
+        <style>
+            .row{
+                text-align: center;
+            }
+            .table-responsive{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+                
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <h3>WATER BILL</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <span><b>User_Id&nbsp;&nbsp;       :</b></span>
+                        <span><%= sampleData[0].User_Id %></span><br>
+                        <p></p><p></p>
+                        <span><b>Water Bill no :</b></span>
+                        <span><%= sampleData[0].Water_Bill_no %></span><br>
+                        <p></p><p></p>
+                        <span><b>Amount        :</b></span>
+                        <span><%= sampleData[0].Amount %></span><br>
+                        <p></p><p></p>
+                        <span><b>Payment Status :</b></span>
+                        <span><%= sampleData[0].Payment_status %></span><br>
+                        <p></p><p></p>
+                        <span><b>Due Date :</b></span>
+                        <span><%= sampleData[0].due_date %></span><br>
+                        <p></p><p></p>
+                        <span><b>Overdue :</b></span>
+                        <span><%= sampleData[0].overdue %></span><br>
+                        <p></p><p></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div> 
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

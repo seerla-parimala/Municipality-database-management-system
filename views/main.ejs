@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rye&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Infant&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rasa&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins,wght@1,200&family=Roboto+Slab&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>MUNICIPAL CORPORATION</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <style>
+        
+
+        .pop{
+            width: 100%;
+            height:400px;
+        }
+        .arrow:hover{
+         color:black;
+         opacity: 0.8;
+        }
+        
+        .dbfdh{
+            margin:20px;
+            margin-left: 0px;
+            padding: 20px;
+            height:400px;
+        }
+        .dbfd{
+            margin:20px;
+            margin-top: 50px;
+            padding:20px;
+            background-color: aliceblue;
+            display:inline-block;
+            width:100%;
+        }
+        h2{
+            color: rgb(146, 19, 210);
+          text-align: center;
+          background-color: rgb(116, 191, 234);
+          height: 60px;
+          font-size: 40px;
+          font-family: 'Poppins', serif;
+        }
+        #elec img{
+          width:20px;
+        }
+        .left{
+            background-color: rgb(236, 243, 241);
+            border-radius: 4px;
+            height: 350px;
+            padding: 35px 40px;
+            margin:60px 40px;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        .middle{
+            background-color: rgb(236, 243, 241);
+            border-radius: 4px;
+            height: 350px;
+            margin:60px 40px;
+            padding: 35px 40px;
+            padding-bottom: 30px;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        .right{
+            background-color: rgb(236, 243, 241);
+            border-radius: 4px;
+            height: 350px;
+            margin:60px 40px;
+            padding: 35px 40px;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        .wat{
+            margin-top: 0px;
+            margin-bottom: 150px;
+            float: left;
+            height: 208px;
+        }
+        ul.arrow li { 
+            display: inline;
+list-style: none;
+}
+        
+      li{
+        margin:10px;
+      }
+      .par{
+        display: inline-block;
+        margin-left: 20px;
+        margin-right:0px;
+        width:850px;
+      }
+      .el{
+        display: inline-block;
+        width:800px;
+      }
+      .elect{
+        float:right;
+        height:209px;
+      }
+      .property{
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-bottom: 150px;
+            float: left;
+            height: 208px;
+        }
+        .prop{
+        display: inline-block;
+        margin-left: 30px;
+        margin-right:0px;
+        width:800px;
+      }
+      .slid{
+        height:350px;
+        width:350px;
+        float:right;
+        margin-right: 100px;
+      }
+      .no{
+        width:600px;
+        display: inline-block;
+      }
+      .tot{
+        display: inline-block;
+        width:300px;
+        margin-top: 20px;
+        margin-left: 50px;
+        text-align: center;
+      }
+      .tot_1{
+        display: inline-block;
+        width:300px;
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+      .tot_2{
+        display: inline-block;
+        width:300px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .comp{
+        height:100px;
+        float: left;
+      }
+      .mid {
+        display: block;
+        background-color: cornflowerblue;
+        height:60px;
+        text-align: end;
+        padding-top: 10px;
+    }
+      .navbar {
+        display: inline;
+        margin-top: 20px;
+        padding-top: 50px;
+    }
+
+    .navbar li {
+        display: inline;
+        font-size: 20px;
+    }
+    .navbar li a{
+      text-decoration: none;
+      color:#444;
+      text-transform: uppercase;
+      font-family: 'Poppins', serif;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        color:chocolate
+
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        float: left;
+        padding:5px 5px;
+        padding-top: 0px;
+    }
+    .cont{
+      padding-left: 160px;
+    }
+    .contact{
+      display:inline block;
+      background-color: #0d2436;
+      padding-top: 5px;
+      width: 700px;
+      height:300px;
+      float: right;
+      color:aliceblue;
+    }
+    .number{
+      text-align: center;
+      margin-right: 20px;
+      margin-top: 25px;
+      margin-left: 60px;
+      float: left;
+    }
+    .copy{
+      background-color: #0d2436;
+      color:white;
+      padding-top: 5px;
+      text-align: center;
+      text-decoration: none;
+    }
+    header::after{
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+   .navbar a::before {
+        content: ' ';
+        display: block;
+        height: 5px;
+        background-color: #444;
+        position: absolute;
+        top: 0;
+        width: 0%;
+        transition: all ease-in-out 250ms;
+        
+    }
+    .navbar a:hover::before{
+        width: 100%;
+    }
+    .face{
+      width:100px;
+      height:100px;
+    }
+    .fa {
+      display:inline-block;
+      height:50px;
+    padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 10px;
+}
+.fa-twitter {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube{
+  margin-left: 10px;
+  background: rgb(194, 16, 16);
+  color:white;
+}
+.fa-instagram{
+  margin-left: 10px;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color:white;
+}
+.icon{
+  margin-top: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer{
+  background-color: #0d2436;
+}
+.footer img{
+  height: fit-content;
+  margin-right: 40px;
+}
+.bar_code{
+  margin-top: 20px;
+  margin-left: 180px;
+  float:left;
+}
+.text_foot_1{
+  margin-top: 10px;
+  display: inline-block;
+  padding:10px;
+  width:250px;
+  color: white;
+  background-color: #0d2436;
+}
+.foot{
+  background-color: #0d2436;
+}
+select{
+  width:100%;
+}
+.email{
+  display:inline-block;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 60px;
+}
+.table{
+  display: inline-block;
+  width:750px;
+}
+th,td{
+  border: 2px solid black;
+  text-align: center;
+}
+.h4{
+  display: inline;
+  margin-left: 220px;
+}
+.even{
+  display:inline-block;
+  margin-left: 380px;
+}
+.prev{
+  margin-top: 50px;
+}
+tr:nth-child(even) {
+  background-color: aliceblue;
+}
+.sol{
+  display:inline-block;
+  margin-right:30px;
+}
+.popup .overlay {
+  position: fixed;
+  top:0px;
+  left:0px;
+  width: 100vw;
+  height:100vw;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display: none;
+}
+.popup .content {
+  position: absolute;
+  top:900px;
+  left:50%;
+  transform: translate(-50%,-50%) scale(0);
+  background: #fff;
+  width:450px;
+  height:220px;
+  z-index: 2;
+  text-align: center;
+  padding: 50px;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+.popup .close-btn{
+  position: absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+ background: #222;
+ color:#fff;
+ font-size:25px;
+ font-weight:600;
+ line-height: 30px;
+ text-align: center;
+ border-radius: 50%;
+}
+.popup.active .overlay{
+display: block;
+}
+.popup.active .content{
+  transition:all 300ms ease-in-out;
+ transform:translate(-50%,-50%) scale(1);
+}
+.popup  .fruit{
+  border: 2px solid red;
+  margin-top: 100px;
+}
+.popup  .efruit{
+  border: 2px solid red;
+  margin-top: 100px;
+}
+.popup  .pfruit{
+  border: 2px solid red;
+  margin-top: 100px;
+}
+.button3 {
+	color: white;
+  background: linear-gradient(to right, purple , #6699CC);
+	border-radius: 8px;
+	transition: .2s ease-in-out;
+  border:none;
+  margin-left: 50px;
+  height: 50px;
+}
+
+.button3:hover {
+  color:blue;
+}
+.button2{
+  color: white;
+  background: linear-gradient(to right, purple , #6699CC);
+	border-radius: 8px;
+	transition: .2s ease-in-out;
+  border:none;
+  margin-left: 50px;
+  padding: 15px;
+  text-decoration: none;
+}
+.table-box
+    {
+        margin: 50px auto;
+    }
+    
+    .table-row{
+        display: table;
+        width: 80%;
+        margin: 10px auto;
+        font-family: sans-serif;
+        background: transparent;
+        padding: 12px 0;
+        color: #555;
+        font-size: 13px;
+        box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+    }
+    .table-head{
+        background: #8665f7;
+        box-shadow: none;
+        color: #fff;
+        font-weight: 600;
+    }
+    .table-head .table-cell{
+        border-right: none;
+    }
+    .table-cell{
+        display: table-cell;
+        width: 20%;
+        text-align: center;
+        padding: 4px 0;
+        border-right: 1px solid #d6d4d4;
+        vertical-align: middle;
+    }
+    .first-cell{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .last-cell{
+        border-right: none;
+    }
+    a{
+        text-decoration: none;
+        color: #555;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .table-row {
+        font-size: 11px;
+      }
+    }
+    *{
+    margin: 0;
+    padding: 0;
+}
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+    </style>
+  
+</head>
+<body>
+        <header class="top">
+          <div class="mid">
+            <img src="https://www.consumercomplaints.in/thumb.php?bname=1&src=indore-municipal-corporation-imc.jpg&wmax=900&hmax=900&quality=90&nocrop=1"
+            alt="logo" class="logo">
+            <ul class="navbar">
+              <li><a href="aaaa.html">Home</a></li>
+              <li><a href="aaaa.html#complain">Complaints</a></li>
+              <li><a href="aaaa.html#box left">Tax info</a></li>
+              <li><a href="/sample_data/email">Update Info</a></li>
+              <li><a href="/sample_data/register">Register</a></li>
+              <li><a href="/sample_data/login">Admin Login</a></li>
+            </ul>
+        </div>
+
+            <img src="https://indoretalk.com/wp-content/uploads/2019/09/home-banner-Indore-Talk.jpg" alt="error" class="pop">
+            <h2>INDORE MUNICIPAL CORPORATION - SERVICES</h2>
+            <div class="box left">
+            <h5>WATER CHARGES</h5>
+             <img src="https://wallpaperaccess.com/full/562837.jpg" alt="" class="wat">
+             <p class="par">Water is the most basic need of every citizen of the state. Proper utilisation of water and controlling water pollution is main reason for imposing tax on water. Water charges are a widely used economic instrument implied mainly by federal governments to better control water use and water pollution by imposing a price on the use of the environment. The goal of such measures is to internalise negative externalities related to water use. Charges can be placed on emissions, users, the product, or on administrative services. Apart from influencing the amount of consumption, water charges can also activate innovation processes.</p>
+             <ul class="arrow">
+                <li>
+                    <div class="popup" id="popup-1">
+                      <div class="overlay"></div>
+                      <div class="content">
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+                        <div fruit>
+                        <form action="/sample_data/status" method="post">
+                          <input type="number" name="User_Id" placeholder="User_Id" class="User_Id"><br>
+                          <p></p>
+                          <input type="password" name="password" placeholder="Password" class="Password"><br>
+                          <p></p>
+                          <input type="submit" name="status" value="Submit" class=" Login"><br>
+                        </form>
+                      </div>
+                      </div>
+                    </div>
+                    <button onclick="togglePopup()" class="button3">Water Bill Status</button>
+                </li>
+                <li><a style="text-decoration: none;" href="/sample_data/payment" class="button2">Pay Online</a></li>
+               </ul>
+            </div>
+            <div class="box middle" name="elec">
+                <h5>ELECTRICITY CHARGES</h5>
+                <p class="el">Electricity is an essential requirement for all facets of our life. It has been recognized as a basic human need. It is a critical infrastructure on which the socio-economic development of the country depends. Supply of electricity at reasonable rate to rural India is essential for its overall development. Equally important is availability of reliable and quality power at competitive rates to Indian industry to make it globally competitive and thus is the important reason for imposing tax. Services sector has made significant contribution to the growth of our economy. Availability of quality supply of electricity is very crucial to sustained growth of this segment</p><img src="https://img.lovepik.com//photo/50083/2567.jpg_860.jpg" alt="" class="elect">
+                <ul class="arrow">
+                    <li><div class="popup" id="popup-2">
+                      <div class="overlay"></div>
+                      <div class="content">
+                        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                        <div efruit>
+                        <form action="/sample_data/estatus" method="post">
+                          <input type="number" name="User_Id" placeholder="User_Id" class="User_Id"><br>
+                          <p></p>
+                          <input type="password" name="password" placeholder="Password" class="password"><br>
+                          <p></p>
+                          <input type="submit" name="estatus" value="Submit" class=" Login"><br>
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+                    <button onclick="togglePopup2()" class="button3">Electricity Bill Status</button></li>
+                    <li><a href="/sample_data/epayment" class="button2">Pay Online</a></li> 
+                </ul>
+            </div>
+            <div class="box right">
+                <h5>PROPERTY TAX</h5>
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvcGVydHl8ZW58MHx8MHx8&w=1000&q=80" alt="" class="property">
+                <p class="'prop">Property tax is the amount that is paid by the landowner to the municipal corporation or the local government for his/her area. Taxes are a government's principal source of revenue, with the amount of money collected dictating the resources accessible to residents. Every property is a taxable asset, and the property tax is an annual sum paid to the government by the property/landowner.
+                    <ul class="arrow">
+                    <li><div class="popup" id="popup-3">
+                      <div class="overlay"></div>
+                      <div class="content">
+                        <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                        <div pfruit>
+                        <form action="/sample_data/pstatus" method="post">
+                          <input type="number" name="Property_Id" placeholder="Property_Id" class="Property_Id"><br>
+                          <p></p>
+                          <input type="password" name="password" placeholder="Password" class="password"><br>
+                          <p></p>
+                          <input type="submit" name="pstatus" value="Submit" class=" Login"><br>
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+                    <button onclick="togglePopup3()" class="button3">Search your Property </button></li>
+                    <li><a href="/sample_data/ppayment" class="button2">Pay Online</a></li>
+                </ul>
+            </div>
+            <div class="dbfdh" id="events">
+                <h4 class="h4">SOLID WASTE MANAGEMENT</h4>
+                <div class="even">
+                  <h4>UPCOMING EVENTS</h4>
+                <p>No events</p>
+              <h4 class="prev">PREVIOUS EVENTS</h4></div>
+                <table class="table">
+                  <tr>
+                    <th>S.No</th>
+                    <th width="500px">Area</th>
+                    <th width="250px">Quantity collected</th>
+                  </tr>
+                  <% if(sampleData.length > 0){
+                    sampleData.forEach(function(data){ %>
+                 <tr>
+                    <td><%= data.S_No %></td>
+                    <td><%= data.Area %></td>
+                    <td><%= data.Quantity %></td>
+                 </tr>
+                   <% });
+                  }
+                  else{
+                    %>
+                    <tr>
+                        <td colspan="5">No Data Found</td>
+                    </tr>
+                  <% } %>
+                </table>
+                <div class="slid">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://almakids.com/wp-content/uploads/2022/04/6.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://gumlet.assettype.com/knocksense%2Fimport%2F28080220%2Forigin.jpg?auto=format%2Ccompress&fit=max&format=webp&w=480&dpr=2.6" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.smartcityindore.org/wp-content/uploads/2021/09/IMG-20210930-WA0032.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://image.slidesharecdn.com/imcswmfinal-171211105146/85/indore-municipal-corporationswachchh-bharat-mission-no-1-town-1-320.jpg?cb=1666266588" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="sol">
+                <a href="/sample_data/session">Know More</a>
+                </div>
+                <div class="sol">
+                </div>
+            </div>
+            <div class="dbfd" id="complain">
+                <h4>REGISTER COMPLAINT</h4>
+                <form action="/sample_data/add" method="post">
+                  <div>
+                    <label for="User_Id">User_Id</label>
+                    <input type="number" id="User_Id" name="User_Id">
+                  </div>
+                    <div>
+                        <label for="category">Category</label>
+                        <select name="category" id="category">
+                            <option value="Water">Water</option>
+                            <option value="Elcectricity" selected>Electricity</option>
+                            <option value="Property">Property</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="area">Select Area</label>
+                        <select name="area" id="area">
+                          <option value="Ambamolya">Ambamolya</option>
+                          <option value="Aranya">Aranya</option>
+                          <option value="Asrawad khrud">Asrawad khrud</option>
+                          <option value="Balya Kheda">Balya Kheda</option>
+                          <option value="Baroda Kara">Baroda Kara</option>
+                          <option value="Begam Khedi">Begam Khedi</option>
+                          <option value="Bhicholi Mardhana">Bhicholi Mardhana</option>
+                          <option value="Bilawali">Bilawalii</option>
+                          <option value="Daturai">Daturia</option>
+                          <option value="Dudhia">Dudhia</option>
+                          <option value="Bawarqua">Bawarqua</option>                            
+                          <option value="Kalaria">Kalaria</option>                            
+                          <option value="Morod">Morod</option>
+                          <option value="Simrol">Simrol</option>
+                        </select>
+                    </div>
+                    <div>
+                        Complaint: <br><textarea name="complaint" cols="90" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="add" value="Submit Now">
+                    </div>
+                </form>
+            </div>
+             <div class="tot">
+              <img src="data:image/png;base64,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" class="comp" alt="">
+                <h4 class="num"><%= sampleData[0].con %></h4>
+                <span>Total Complaint Registered Till Date</span>
+             </div>
+             <div class="tot_1">
+              <img src="https://thumbs.dreamstime.com/b/closed-sign-logo-close-108897667.jpg" class="comp" alt="">
+                <h4 class="num"><%= sampleData[0].don %></h4>
+                <span>Total Complaint Closed/Compiled</span>
+             </div>
+             <div class="tot_2">
+              <img src="data:image/png;base64,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" class="comp" alt="" height="50px">
+                <h4 class="num"><%= sampleData[0].pen %></h4>
+                <span>Pending</span>
+             </div>
+             <div class="table-box">
+              <h2 style="font-size:30px;color:royalblue;padding-left: 0px;display:inline-block;margin-left:500px;">OFFICERS DETAILS:</h2> 
+                  <div class="table-row table-head">
+                      <div class="table-cell first-cell">
+                          <p>	Name of the Officer</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Designation</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>Phone Nos</p>
+                      </div> 
+                  </div>
+          
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>T. Vijay Kumar Reddy IIS</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Commissioner</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>0866-2974160</p>
+                      </div>  
+                  </div>
+          
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>L.Swarna Latha</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Addl Director(FAC)</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215220</p>
+                      </div>
+                  </div>
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>O. Madhusudhana</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Chief Information Engineer</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215239</p>
+                      </div>
+                  </div>
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>Kasturi Bai Tella</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Joint Director</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215225</p>
+                      </div>
+                  </div>
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>C.V.Krishna Reddy</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Regional Information Engineer</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215353</p>
+                      </div>
+                  </div>
+          
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>I. Surya Chandra Rao</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Dy. Director (Public Cell)</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215226</p>
+                      </div>
+                  </div>
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>D Nageswara Rao</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Dy. EIE</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215241</p>
+                      </div>
+                  </div>
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>G.V Prasad</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Asst Director</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215234</p>
+                      </div>
+                  </div>
+          
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>A.S Veerabhadra Rao</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Public Relations Officer</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215237</p>
+                      </div>
+                  </div>
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>J. Shamala Gowri</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Junior Account Officer</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215246</p>
+                      </div>
+                  </div>
+                  <div class="table-row">
+                      <div class="table-cell first-cell">
+                          <p>G.Ramanayya</p>
+                      </div>
+                      <div class="table-cell">
+                          <p>Accounts Officer</p>
+                      </div>
+                      <div class="table-cell last-cell">
+                          <p>9121215244</p>
+                      </div>
+                  </div>
+          </div> 
+          <div class="icon">
+            <a href="https://twitter.com/SwachhIndore?s=09"><i class="fa fa-twitter fa-3x"></i></a>
+            <a href="https://www.facebook.com/SwachhIndore/"><i class="fa fa-facebook fa-3x"></i></a>
+            <a href="https://www.instagram.com/swachhindore/?igshid=1famy54lot52h"><i class="fa fa-instagram fa-3x"></i></a>
+            <a href="https://www.youtube.com/c/SwachhIndore"><i class="fa fa-youtube fa-3x"></i></a>
+            <br>
+            
+          </div> 
+             
+             <div class="foot">
+             <div class="bar_code"><img src="http://imcindore.in/wp-content/uploads/2020/06/ind-311-169x300.jpeg" alt="" height="200px" /></div>
+             <div class="text_foot_1">
+              <h3>Indore 311 App</h3>
+              <p>Indore 311 app by Municipal corporation of Indore is a mobile app to provide all public services to the citizens of Indore on a click. More then 100 thousand of downloads and solution in 24hrs made it a great success and benchmark for good governance.<br />
+              <a href="https://play.google.com/store/apps/details?id=com.everythingcivic.indore&amp;hl=en_IN" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="alignnone size-full wp-image-1803" src="http://imcindore.in/wp-content/uploads/2020/06/Image-1.png" alt="" width="110" height="34" /></a></p>
+              </div>
+             <div class="contact" id="contact">
+              <div class="cont">
+              <h3>CONTACT US</h3>
+              </div>
+              <div class="number">
+                <i class="fa fa-phone"></i>
+                <p>SEERLA PARIMALA</p>
+                <p>9492062314</p>
+                <p>SREYA SHANMUKHI</p>
+                <p>6305969656</p>
+              </div>
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <p>cse210001064@iiti.ac.in</p>
+                <p>cse210001010@iiti.ac.in</p>
+              </div>
+             </div>
+             <div class="footer">
+              <marquee scrollamount="10" direction="left">
+                <img src="http://nagarnigamujjain.org/hindi/images/marquee/1-1.png" alt height="50px" width="181px">
+                <img src="http://nagarnigamujjain.org/hindi/images/marquee/3-1.png" alt height="50px" width="155px">
+                <img src="http://nagarnigamujjain.org/hindi/images/marquee/4-1.png" alt height="50px" width="55px">
+                <img src="https://imcindore.in/wp-content/uploads/2020/08/5-1.png" alt height="50px" width="49px">
+                <img src="https://imcindore.in/wp-content/uploads/2020/08/6-1.png" alt height="50px" width="105px">
+                <img src="https://imcindore.in/wp-content/uploads/2020/08/7-1.png" alt height="50px" width="91px">
+                <img src="http://nagarnigamujjain.org/hindi/images/marquee/8-1.png" alt height="50px" width="115px">
+              </marquee>
+             </div>
+            <div class="copy">
+              <p>&#169 Copyright 2022 <a href="aaaa.html">Indore Municipal Corporation</a></p>
+            </div>
+             </div>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script>
+         function togglePopup(){
+          document.getElementById("popup-1").classList.toggle("active");
+         }
+         function togglePopup2(){
+          document.getElementById("popup-2").classList.toggle("active");
+         }
+         function togglePopup3(){
+          document.getElementById("popup-3").classList.toggle("active");
+         }
+            
+
+        </script>
+</body>
+</html>
